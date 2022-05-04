@@ -1,0 +1,40 @@
+1. - jQuery function
+        - the global jQuery function that is normally aliased as $ for brevity 
+   - jQuery object
+        - the object returned by the jQuery function that often represents a group of elements
+ 
+ 
+ 
+2.  <head>
+   	 <script>
+        $(function(){
+                $( "div > h1" ).css("background", "#ff0000");
+        });
+   	 </script>
+   </head>
+<body>
+    <h1>abc</h1>
+    <br>
+    <div>
+        <h1>div-1</h1>
+        <h1>div-2</h1>
+    </div>
+    <h1>xyz</h1>
+</body>
+ 
+
+3.  <!DOCTYPE html> 
+    <html> 
+    <head> 
+        <script> 
+            $(function(){
+                $("p").append("YES")
+            });
+        </script> 
+    </head> 
+    <body> 
+    
+        <p>Is jQuery FUN or what? </p> 
+ 
+    </body> 
+    </html>
